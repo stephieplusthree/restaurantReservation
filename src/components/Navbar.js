@@ -8,7 +8,7 @@ export default props => {
             <NavbarBrand
                 className="nav-brand"
                 onClick={_ => {
-                console.log("Clicked!")
+                props.setPage(0);
                 }}
             >
                 Pizza Cabin
